@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CampaignItem">
+        <attr name="campaign_name" format="string" />
+        <attr name="campaign_owner" format="string" />
+        <attr name="campaign_type" format="string" />
+        <attr name="campaign_start_date" format="string" />
+        <attr name="campaign_end_date" format="string" />
+        <attr name="campaign_details" format="string" />
+        <attr name="campaign_target" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="HopeMaterialButton">
+
+        <attr name="materialButton_text_size" format="dimension" />
+        <attr name="materialButton_text_color" format="color" />
+        <attr name="materialButton_bg_button" format="color" />
+    </declare-styleable>
+</resources>

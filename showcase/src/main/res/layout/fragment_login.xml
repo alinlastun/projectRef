@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.softvision.hope.design.material.HopeMaterialButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        app:materialButton_text_color="@color/colorWhite"
+        app:materialButton_bg_button=""
+        app:materialButton_text_size="30dp"
+
+        style="@style/StyleButton"
+      />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        style="@style/StyleButton"
+        android:text="desen"
+        android:textColor="@color/default_text_color"
+        />
+
+
+
+</LinearLayout>

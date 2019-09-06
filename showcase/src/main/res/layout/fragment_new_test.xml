@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.testCampaigns.NewTestFragment"
+    android:layout_margin="5dp">
+
+    <com.softvision.hope.design.campaign.CampaignItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:campaign_name="Campaign Name"
+        app:campaign_owner="Campaign Owner"
+        app:campaign_type="Type"
+        app:campaign_start_date="01.01.2019"
+        app:campaign_end_date="31.12.2019"
+        app:campaign_details="Details"
+        app:campaign_target="1000"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

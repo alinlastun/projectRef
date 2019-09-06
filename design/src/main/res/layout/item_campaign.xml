@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    tools:parentTag="androidx.cardview.widget.CardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/campaignNameId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Campaign Name" />
+        <TextView
+            android:id="@+id/campaignOwnerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Owner" />
+        <TextView
+            android:id="@+id/campaignTypeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Type"/>
+        <TextView
+            android:id="@+id/campaignStartDateId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Start Date"/>
+        <TextView
+            android:id="@+id/campaignEndDateId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="End Date"/>
+        <TextView
+            android:id="@+id/campaignDetailsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Details"/>
+        <TextView
+            android:id="@+id/campaignTargetId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Target"/>
+
+    </LinearLayout>
+
+</merge>
